@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KTHllcVxcoMXyi/176qJVGoDeweMCvHB2BGOFyk/8uw=",
+  "Hash": "U6YNnCKbaI14TGS6YZkWPuYE7zHV1Ph6NNwzkv2pvtI=",
   "Source": "AtiveWeb",
   "BasePath": "/",
   "Mode": "Root",
@@ -7921,6 +7921,25 @@
       "OriginalItemSpec": "wwwroot\\css\\button.css"
     },
     {
+      "Identity": "C:\\src\\AtiveWeb\\wwwroot\\css\\carousel.css",
+      "SourceId": "AtiveWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\src\\AtiveWeb\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/carousel.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\carousel.css"
+    },
+    {
       "Identity": "C:\\src\\AtiveWeb\\wwwroot\\css\\footer.css",
       "SourceId": "AtiveWeb",
       "SourceType": "Discovered",
@@ -7995,6 +8014,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\product.css"
+    },
+    {
+      "Identity": "C:\\src\\AtiveWeb\\wwwroot\\css\\service.css",
+      "SourceId": "AtiveWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\src\\AtiveWeb\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/service.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\service.css"
     },
     {
       "Identity": "C:\\src\\AtiveWeb\\wwwroot\\css\\text.css",

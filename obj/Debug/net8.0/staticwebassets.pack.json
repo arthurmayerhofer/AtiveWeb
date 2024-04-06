@@ -37,6 +37,10 @@
       "PackagePath": "staticwebassets\\css\\button.css"
     },
     {
+      "Id": "C:\\src\\AtiveWeb\\wwwroot\\css\\carousel.css",
+      "PackagePath": "staticwebassets\\css\\carousel.css"
+    },
+    {
       "Id": "C:\\src\\AtiveWeb\\wwwroot\\css\\footer.css",
       "PackagePath": "staticwebassets\\css\\footer.css"
     },
@@ -51,6 +55,10 @@
     {
       "Id": "C:\\src\\AtiveWeb\\wwwroot\\css\\product.css",
       "PackagePath": "staticwebassets\\css\\product.css"
+    },
+    {
+      "Id": "C:\\src\\AtiveWeb\\wwwroot\\css\\service.css",
+      "PackagePath": "staticwebassets\\css\\service.css"
     },
     {
       "Id": "C:\\src\\AtiveWeb\\wwwroot\\css\\text.css",

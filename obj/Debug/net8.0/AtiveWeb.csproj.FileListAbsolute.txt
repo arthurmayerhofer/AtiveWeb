@@ -1029,3 +1029,4 @@ C:\src\AtiveWeb\obj\Debug\net8.0\AtiveWeb.dll
 C:\src\AtiveWeb\obj\Debug\net8.0\refint\AtiveWeb.dll
 C:\src\AtiveWeb\obj\Debug\net8.0\AtiveWeb.pdb
 C:\src\AtiveWeb\obj\Debug\net8.0\ref\AtiveWeb.dll
+C:\src\AtiveWeb\obj\Debug\net8.0\AtiveWeb.sourcelink.json
