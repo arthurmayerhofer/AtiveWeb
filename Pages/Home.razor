@@ -1,0 +1,157 @@
+﻿@page "/"
+@using AtiveWeb.Pages.Components 
+
+<PageTitle>Empresa X - Desenvolvimento Web</PageTitle>
+
+<div class="banner">
+    <div class="hero-content row align-items-center">
+        <div class="col-md-7">
+            <div class="banner-text">
+                <h3>PRESENÇA ONLINE ATIVA!</h3>
+                <h1 class="display-4">Faça seu negócio brilhar com AtiveWeb!</h1>
+                <h2 class="lead">Conquiste o mercado online e aumente suas vendas</h2>
+                <!-- Adicione o botão aqui -->
+                <a href="#" class="custom-btn">Saiba Mais</a>
+            </div>
+        </div>
+        <div class="col-md-3 d-flex align-items-center justify-content-center">
+            <div class="banner-image text-center mr-3">
+                <img src="mulher-celebra.png" alt="Bem-vindo à Empresa X" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+@* <Carousel/> *@
+<section class="products custom-center mt-0">
+    <div class="container d-flex">
+        @* <div class="row mb-4">
+            <h3 class="product-title">Serviços</h3>
+        </div> *@
+
+            <div class="product" id="site-personalizado">
+                <h3 class="product-title">Sites Personalizados</h3>
+                <p class="product-description">Desenvolvemos sites modernos e responsivos</p>
+                <div class="banner-image text-center mt-4">
+                    <img src="ecommerce.png" alt="Bem-vindo à Empresa X" class="img-fluid" id="product-image">
+                </div>
+            </div>
+            <div class="product" id="loja-virtual">
+                <h3 class="product-title">Loja Virtual</h3>
+                <p class="product-description">Construímos e-commece personalizado</p>
+                <div class="banner-image text-center mt-4">
+                    <img src="ecommerce.png" alt="Bem-vindo à Empresa X" class="img-fluid" id="product-image">
+                </div>
+            </div>
+            <div class="product" id="otimizacao-seo">
+                <h3 class="product-title">Otimização de SEO</h3>
+                <p class="product-description">Otimizamos a visibilidade da sua empresa</p>
+                <div class="banner-image text-center mt-4">
+                    <img src="ecommerce.png" alt="Bem-vindo à Empresa X" class="img-fluid" id="product-image">
+                </div>
+            </div>
+            <div class="product" id="publicidade-online">
+                <h3 class="product-title">Publicidade Online</h3>
+                <p class="product-description">Alcance seu público-alvo e impulsione suas vendas</p>
+                <div class="banner-image text-center mt-4">
+                    <img src="ecommerce.png" alt="Bem-vindo à Empresa X" class="img-fluid" id="product-image">
+                </div>
+            </div>
+        </div>
+</section>
+
+<section class="services custom-center mt-0">
+    <div class="container">
+        @* <div class="row mb-4">
+            <h3 class="product-title">Serviços</h3>
+        </div> *@
+            <div class="product" id="site-personalizado">
+                <h3 class="product-title">Marketing</h3>
+                <p class="product-description">Desenvolvemos sites modernos e responsivos</p>
+                <div class="banner-image text-center mt-4">
+                    <img src="ecommerce.png" alt="Bem-vindo à Empresa X" class="img-fluid" id="product-image">
+                </div>
+            </div>
+            
+            <div class="product" id="publicidade-online">
+                <h3 class="product-title">Sites</h3>
+                <p class="product-description">Alcance seu público-alvo e impulsione suas vendas</p>
+                <div class="banner-image text-center mt-4">
+                    <img src="ecommerce.png" alt="Bem-vindo à Empresa X" class="img-fluid" id="product-image">
+                </div>
+            </div>
+        </div>
+</section>
+
+<section class="form-style col-md-3 custom-center" id="formSection">
+    <form class="form">
+        <div class="logo-form">
+            <img src="awlogo.png" alt="Logo da Web Ative" class="logo">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" id="name" placeholder="Seu Nome">
+        </div>
+        <div class="form-group">
+            <input type="email" class="form-control" id="email" placeholder="Seu Email">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" id="phone" placeholder="Seu Telefone">
+        </div>
+        <div class="form-group">
+            <textarea class="form-control" id="message" placeholder="Sua Mensagem"></textarea>
+        </div>
+        <button type="submit" class="custom-btn mt-0">Solicitar Orçamento</button>
+    </form>
+
+</section>
+
+<script>
+window.addEventListener('scroll', function () {
+    var formSection = document.getElementById('formSection');
+    var scrollPosition = window.scrollY;
+    var windowHeight = window.innerHeight;
+
+    // Calcula a distância percorrida da parte superior da página
+    var scrollDistance = scrollPosition + windowHeight;
+
+    // Altura do documento
+    var documentHeight = document.documentElement.scrollHeight;
+
+    // Calcula a porcentagem de rolagem da página
+    var scrollPercentage = (scrollDistance / documentHeight) * 100;
+
+    // Calcula a opacidade do formulário com base na porcentagem de rolagem
+    var opacity = 0 + (scrollPercentage / 100) - 0.2;
+
+    // Define a opacidade do formulário e seu conteúdo
+    formSection.style.backgroundColor = 'rgba(255, 255, 255, ' + opacity + ')';
+});
+
+
+</script> 
+
+
+@* <script>
+document.getElementById('site-personalizado').addEventListener('click', function () {
+document.getElementById('product-image').src = 'site-personalizado-image.jpg';
+document.getElementById('product-title').textContent = 'Sites Personalizados';
+document.getElementById('product-description').textContent = 'Desenvolvemos sites modernos e responsivos';
+});
+
+document.getElementById('loja-virtual').addEventListener('click', function () {
+document.getElementById('product-image').src = 'ecommerce.png';
+document.getElementById('product-title').textContent = 'Loja Virtual';
+document.getElementById('product-description').textContent = 'Construímos e-commerce personalizado';
+});
+
+document.getElementById('otimizacao-seo').addEventListener('click', function () {
+document.getElementById('product-image').src = 'otimizacao-seo-image.jpg';
+document.getElementById('product-title').textContent = 'Otimização de SEO';
+document.getElementById('product-description').textContent = 'Otimizamos a visibilidade da sua empresa';
+});
+
+document.getElementById('publicidade-online').addEventListener('click', function () {
+document.getElementById('product-image').src = 'publicidade-online-image.jpg';
+document.getElementById('product-title').textContent = 'Publicidade Online';
+document.getElementById('product-description').textContent = 'Alcance seu público-alvo e impulsione suas vendas';
+});
+</script> *@

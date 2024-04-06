@@ -1,0 +1,38 @@
+/* Estilo do botão personalizado */
+.custom-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: #fff; /* Cor do texto branco */
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+    margin-top: 30px;
+}
+
+/* Efeito de hover do botão */
+.custom-btn:hover {
+    background-color: #fff; /* Altera a cor do texto para branco */
+    color: #4CAF50; /* Altera a cor de fundo para verde */
+}
+
+/* Animação do botão */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.custom-btn {
+    animation: pulse 2s infinite alternate; /* Aplica a animação pulse */
+}
