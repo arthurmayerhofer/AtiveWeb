@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "AtiveWeb",
   "resources": {
-    "hash": "sha256-w5V+02g/FROk2fSWYqIFgOfqOM2ctkcTzHG95JXHxLM=",
+    "hash": "sha256-NqnycO64Pf1TQNcuzOjlFWd/s9cmVDn68it5FTnt3eo=",
     "jsModuleNative": {
       "dotnet.native.8.0.2.gltnz0m2rf.js": "sha256-gPMK16QWoJSTxorlZJqcVtbBRTniIQWlLsJN2O4cJHg="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-OH3kXneWqQMz6CUSo6POZqIeMqn9+5RR+IgHn5TnIwA=",
       "netstandard.wasm": "sha256-ZOswxXEbR2TmqjpbaBEdgr85Bv1NC4GwOwoJ+oxXM3M=",
       "System.Private.CoreLib.wasm": "sha256-I2w0iHf5nvSQyF1YE1VbgdTzmmz6a4OE6J7vo5wFa/4=",
-      "AtiveWeb.wasm": "sha256-0puR/bDYDStYiDo78yl6mW+B1lK4bvvU5PV+LmVSjPI="
+      "AtiveWeb.wasm": "sha256-Arf/SCiBJ71SB9QwcBzbor9X65nJ22fiPpsLnxbNqOI="
     },
     "pdb": {
-      "AtiveWeb.pdb": "sha256-isezDvYk0JNGpENV34YySVl8KHbU6Ru2m7ml9mlfAaI="
+      "AtiveWeb.pdb": "sha256-mmg+1FP85zP+z7EPQIkRAjVY3vo/Id1S4PjiWD8AEP0="
     }
   },
   "cacheBootResources": true,

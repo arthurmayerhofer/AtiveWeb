@@ -1,6 +1,8 @@
 .products {
+    background-color: white;
+    margin-bottom: 30px;
     padding: 50px 0;
-    padding-bottom: -80px;
+    padding-bottom: 30px;
 
 }
 /* Estilos padrão dos produtos */
@@ -28,4 +30,11 @@
 .product:active {
     transform: translateY(-5px);
     background-color: #4CAF50; 
+}
+
+@media (max-width: 641px) {
+
+    .container{
+        
+    }
 }
