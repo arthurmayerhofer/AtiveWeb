@@ -2,7 +2,7 @@ name: Deploy
 
 on:
   push:
-    branchs: ["main"]
+    branchs: ["gh-pages"]
 
   workflow_dispatch:
 
