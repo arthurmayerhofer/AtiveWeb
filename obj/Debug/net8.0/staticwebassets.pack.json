@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\AtiveWeb.styles.css"
     },
     {
+      "Id": "C:\\src\\AtiveWeb\\wwwroot\\.nojekyll",
+      "PackagePath": "staticwebassets\\.nojekyll"
+    },
+    {
+      "Id": "C:\\src\\AtiveWeb\\wwwroot\\404.html",
+      "PackagePath": "staticwebassets\\404.html"
+    },
+    {
       "Id": "C:\\src\\AtiveWeb\\wwwroot\\awlogo.png",
       "PackagePath": "staticwebassets\\awlogo.png"
     },
