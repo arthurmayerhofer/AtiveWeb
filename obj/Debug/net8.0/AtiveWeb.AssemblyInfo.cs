@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AtiveWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37890d0f25068ec20643d16cca21d2dd63df5920")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed01bd925558ae40c9f3a3a4ceda848a07b982b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("AtiveWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AtiveWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

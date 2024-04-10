@@ -1,9 +1,9 @@
-name: gh-pages
+name: githubPages
 
 on:
   push:
     branches:
-      - gh-pages
+      - githubPages
 
 permissions: 
   contents: write
@@ -35,6 +35,6 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
         GITHUB_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
-        BRANCH: gh-pages
+        BRANCH: githubPages
         FOLDER: build/wwwroot
       
