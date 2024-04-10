@@ -1,134 +1,135 @@
 ﻿@page "/"
-@using AtiveWeb.Pages.Components 
+@using AtiveWeb.Pages.Components
 
 <PageTitle>Empresa X - Desenvolvimento Web</PageTitle>
 
-<div class="banner">
-    <div class="hero-content row align-items-center">
-        <div class="col-md-7">
-            <div class="banner-text">
-                <h3>PRESENÇA ONLINE ATIVA!</h3>
-                <h1 class="display-4">Faça seu negócio brilhar com AtiveWeb!</h1>
-                <h2 class="lead">Conquiste o mercado online e aumente suas vendas</h2>
-                <!-- Adicione o botão aqui -->
-                <a href="#" class="custom-btn">Saiba Mais</a>
-            </div>
-        </div>
-        <div class="col-md-3 d-flex align-items-center justify-content-center">
-            @* <div class="banner-image text-center mr-3">
-                <img src="mulher-celebra.png" alt="Bem-vindo à Empresa X" class="img-fluid">
-            </div> *@
-            <Form />
-        </div>
+<div class="banner custom-center  ">
+    <div class="banner-text col-lg-5">
+        <h3 class="lead">PRESENÇA ONLINE ATIVA!</h3>
+        <h1 class="title">Faça seu negócio decolar com AtiveWeb!</h1>
+        <h2 class="subtitle">Conquiste o mercado online e aumente suas vendas</h2>
+        <!-- Adicione o botão aqui -->
+        @* <div class="banner-image text-center">
+        <img src="banner-img.png" alt="Bem-vindo à Empresa X" class="img-fluid">
+        </div> *@
+        @* <a href="#" class="custom-btn">Saiba Mais</a> *@
     </div>
+    <div class="col-sm-12 col-md-12 col-lg-5 mt-0">
+        @* <div class="banner-image text-center mr-3">
+        <img src="mulher-celebra.png" alt="Bem-vindo à Empresa X" class="img-fluid">
+        </div> *@
+        <Form />
+    </div>
+    <div class="rocket-container">
+        <img src="foguete.png" alt="Rocket" class="rocket">
+    </div>
+
 </div>
 @* <Carousel/> *@
 <section class="products custom-center mt-0">
     <div class="container d-flex">
         @* <div class="row mb-4">
-            <h3 class="product-title">Serviços</h3>
+        <h3 class="product-title">Serviços</h3>
         </div> *@
 
-            <div class="product" id="site-personalizado">
-                <h3 class="product-title">Sites Personalizados</h3>
-                <p class="product-description">Desenvolvemos sites modernos e responsivos</p>
-                <div class="banner-image text-center mt-4">
-                    <img src="site.png" alt="Bem-vindo à Empresa X" class="img-fluid" id="product-image">
-                </div>
-            </div>
-            <div class="product" id="loja-virtual">
-                <h3 class="product-title">Loja Virtual</h3>
-                <p class="product-description">Construímos e-commece personalizado</p>
-                <div class="banner-image text-center mt-4">
-                    <img src="ecommerce.png" alt="Bem-vindo à Empresa X" class="img-fluid" id="product-image">
-                </div>
-            </div>
-            <div class="product" id="otimizacao-seo">
-                <h3 class="product-title">Otimização de SEO</h3>
-                <p class="product-description">Otimizamos a visibilidade da sua empresa</p>
-                <div class="banner-image text-center mt-4">
-                    <img src="seo.png" alt="Bem-vindo à Empresa X" class="img-fluid" id="product-image">
-                </div>
-            </div>
-            <div class="product" id="publicidade-online">
-                <h3 class="product-title">Publicidade Online</h3>
-                <p class="product-description">Alcance seu público-alvo e impulsione suas vendas</p>
-                <div class="banner-image text-center mt-4">
-                    <img src="ecommerce.png" alt="Bem-vindo à Empresa X" class="img-fluid" id="product-image">
-                </div>
+        <div class="product" id="site-personalizado">
+            <h3 class="product-title">Sites Personalizados</h3>
+            <p class="product-description">Desenvolvemos sites modernos e responsivos</p>
+            <div class="banner-image text-center mt-4">
+                <img src="website.png" alt="Bem-vindo à Empresa X" class="img-fluid" id="product-image">
             </div>
         </div>
-</section>
+        <div class="product" id="loja-virtual">
+            <h3 class="product-title">Loja Virtual</h3>
+            <p class="product-description">Construímos e-commece personalizado</p>
+            <div class="banner-image text-center mt-4">
+                <img src="ecommerce.png" alt="Bem-vindo à Empresa X" class="img-fluid" id="product-image">
+            </div>
+        </div>
+        <div class="product" id="otimizacao-seo">
+            <h3 class="product-title">Otimização de SEO</h3>
+            <p class="product-description">Otimizamos a visibilidade da sua empresa</p>
+            <div class="banner-image text-center mt-4">
+                <img src="seo.png" alt="Bem-vindo à Empresa X" class="img-fluid" id="product-image">
+            </div>
+        </div>
+        <div class="product" id="publicidade-online">
+            <h3 class="product-title">Publicidade Online</h3>
+            <p class="product-description">Alcance seu público-alvo e impulsione suas vendas</p>
+            <div class="banner-image text-center mt-4">
+                <img src="publicidade.png" alt="Bem-vindo à Empresa X" class="img-fluid" id="product-image">
+            </div>
+        </div>
+    </div>
 
-<section class="products custom-center mt-0">
-    <div class="container d-flex">
-        @* <div class="row mb-4">
-            <h3 class="product-title">Serviços</h3>
-        </div> *@
-            <div class="product" id="site-personalizado">
-                <h3 class="product-title">Marketing</h3>
-                <p class="product-description">Desenvolvemos sites modernos e responsivos</p>
-                <div class="banner-image text-center mt-4">
-                    <img src="ecommerce.png" alt="Bem-vindo à Empresa X" class="img-fluid" id="product-image">
-                </div>
-            </div>
-            
-            <div class="product" id="publicidade-online">
-                <h3 class="product-title">Sites</h3>
-                <p class="product-description">Alcance seu público-alvo e impulsione suas vendas</p>
-                <div class="banner-image text-center mt-4">
-                    <img src="ecommerce.png" alt="Bem-vindo à Empresa X" class="img-fluid" id="product-image">
-                </div>
-            </div>
-        </div>
-</section>
+    <h3 class="product-title mt-5 mb-5">Conte com os serviços e estratégias certas para alcançar novos patamares</h3>
+  <div class="container services custom-center">
 
-<section class="form-style col-md-3 custom-center" id="formSection">
-    <form class="form">
-        <div class="logo-form">
-            <img src="awlogo.png" alt="Logo da Web Ative" class="logo">
+        <div class="service" id="site-personalizado">
+            <div class="service-image text-center">
+                <img src="mulher-celebra.png" alt="Bem-vindo à Empresa X" class="img-fluid" id="product-image">
+            </div>
+            <h3 class="service-title">Marketing</h3>
+            <ul class="service-list">
+                <p class="service-description">Desenvolvimento de estratégias de marketing</p>
+                <p class="service-description">Criação de campanhas publicitárias</p>
+                <p class="service-description">Análise de mercado</p>
+                <p class="service-description">Gestão de redes sociais</p>
+                <p class="service-description">Marketing de conteúdo</p>
+            </ul>
+            @* <p class="product-description">Desenvolvemos sites modernos e responsivos</p> *@
+
+
         </div>
-        <div class="form-group">
-            <input type="text" class="form-control" id="name" placeholder="Seu Nome">
+
+        <div class="service" id="site-personalizado">
+            <div class="service-image text-center mt-4">
+                <img src="homem-celebra.png" alt="Bem-vindo à Empresa X" class="img-fluid" id="product-image">
+            </div>
+            <h3 class="service-title">Criação de Sites</h3>
+            <ul class="service-list">
+                <p class="service-description">Desenvolvimento de estratégias de marketing</p>
+                <p class="service-description">Criação de campanhas publicitárias</p>
+                <p class="service-description">Análise de mercado</p>
+                <p class="service-description">Gestão de redes sociais</p>
+                <p class="service-description">Marketing de conteúdo</p>
+            </ul>
+            @* <p class="product-description">Desenvolvemos sites modernos e responsivos</p> *@
+
+
         </div>
-        <div class="form-group">
-            <input type="email" class="form-control" id="email" placeholder="Seu Email">
-        </div>
-        <div class="form-group">
-            <input type="text" class="form-control" id="phone" placeholder="Seu Telefone">
-        </div>
-        <div class="form-group">
-            <textarea class="form-control" id="message" placeholder="Sua Mensagem"></textarea>
-        </div>
-        <button type="submit" class="custom-btn mt-0">Solicitar Orçamento</button>
-    </form>
+    </div>
+  
+
+
 
 </section>
+
 
 <script>
-window.addEventListener('scroll', function () {
-    var formSection = document.getElementById('formSection');
-    var scrollPosition = window.scrollY;
-    var windowHeight = window.innerHeight;
+    window.addEventListener('scroll', function () {
+        var formSection = document.getElementById('formSection');
+        var scrollPosition = window.scrollY;
+        var windowHeight = window.innerHeight;
 
-    // Calcula a distância percorrida da parte superior da página
-    var scrollDistance = scrollPosition + windowHeight;
+        // Calcula a distância percorrida da parte superior da página
+        var scrollDistance = scrollPosition + windowHeight;
 
-    // Altura do documento
-    var documentHeight = document.documentElement.scrollHeight;
+        // Altura do documento
+        var documentHeight = document.documentElement.scrollHeight;
 
-    // Calcula a porcentagem de rolagem da página
-    var scrollPercentage = (scrollDistance / documentHeight) * 100;
+        // Calcula a porcentagem de rolagem da página
+        var scrollPercentage = (scrollDistance / documentHeight) * 100;
 
-    // Calcula a opacidade do formulário com base na porcentagem de rolagem
-    var opacity = 0 + (scrollPercentage / 100) - 0.2;
+        // Calcula a opacidade do formulário com base na porcentagem de rolagem
+        var opacity = 0.05 + (scrollPercentage / 100) - 0.2;
 
-    // Define a opacidade do formulário e seu conteúdo
-    formSection.style.backgroundColor = 'rgba(255, 255, 255, ' + opacity + ')';
-});
+        // Define a opacidade do formulário e seu conteúdo
+        formSection.style.backgroundColor = 'rgba(255, 255, 255, ' + opacity + ')';
+    });
 
 
-</script> 
+</script>
 
 
 @* <script>
