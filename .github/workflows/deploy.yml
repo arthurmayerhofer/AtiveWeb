@@ -1,9 +1,9 @@
-name: githubPages
+name: cards
 
 on:
   push:
     branches:
-      - githubPages
+      - cards
 
 permissions: 
   contents: write
@@ -35,6 +35,6 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
         GITHUB_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
-        BRANCH: githubPages
+        BRANCH: cards
         FOLDER: build/wwwroot
       
