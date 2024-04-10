@@ -12,7 +12,7 @@
 }
 
 .banner-image img {
-  max-width: 100%;
+  max-width: 75%;
   height: auto;
   -webkit-mask-image: linear-gradient(to top, transparent 0%, black 50%);
   mask-image: linear-gradient(to top, transparent 0%, black 50%);
@@ -24,6 +24,21 @@
   z-index: 1;
   /* Define a ordem de empilhamento */
 }
+
+.service .service-image img {
+  max-width: 120%;
+  height: auto;
+  -webkit-mask-image: linear-gradient(to top, transparent 0%, black 50%);
+  mask-image: linear-gradient(to top, transparent 0%, black 50%);
+  animation: celebrate 8s infinite alternate ease-in-out;
+  /* Animação */
+  transition: transform 0.5s ease-in-out;
+  /* Transição para suavizar a animação */
+  position: relative;
+  z-index: 1;
+  /* Define a ordem de empilhamento */
+}
+
 .section-image img{
   max-width: 50%;
   height: auto;
@@ -60,4 +75,29 @@
   'wght' 400,
   'GRAD' 0,
   'opsz' 24
+}
+
+
+
+
+.rocket-container {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.rocket {
+  width: 100px; /* Ajuste conforme necessário */
+  height: auto;
+  animation: rocket-flying 10s cubic-bezier(0.69, 0.34, 0.42, 0.91) infinite;
+}
+
+@keyframes rocket-flying {
+  0% {
+    transform: translate(-50%, 100vh) rotate(-45deg);
+  }
+  100% {
+    transform: translate(-50%, -100vh) rotate(45deg);
+  }
 }
