@@ -1,17 +1,24 @@
 .form-style {
     /* position: fixed; */
     /*top: 65%; /* Posiciona o formulário no meio da tela verticalmente */
-    right: 0; /* Alinha o formulário à direita da tela */
-    transform: translateY(-15%); /* Move o formulário para cima pela metade de sua altura para centralizá-lo verticalmente */
+    /* right: 0; /* Alinha o formulário à direita da tela */
+    /*transform: translateY(-15%); /* Move o formulário para cima pela metade de sua altura para centralizá-lo verticalmente */
     padding: 20px;
     /* background-color: #fff; */
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 300px;
     max-height: 350px;
-    margin-right: 20px;
+    margin-bottom: 50px;
     z-index: 999; /* Ajuste o valor conforme necessário para trazer o formulário para frente */
     transition: background-color 0.3s; /* Adiciona transição para suavizar a mudança de cor */
+
+
+    width: calc(100% - 16px); /* Cada produto ocupa metade da largura do container, com margem de 8px */
+    margin: 0px 0px 10px 0px; /* Adiciona uma margem de 8px entre os produtos */
+
+    /* Reduzir proporcionalmente o tamanho dos cards */
+    transform: scale(0.9); /* Reduzir o tamanho em 10% */
+    transition: transform 0.3s ease; /* Adicionar uma transição suave */
 
 }
 

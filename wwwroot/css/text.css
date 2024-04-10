@@ -3,6 +3,8 @@
 .banner-text{
     color: #f4f4f4;
     margin-bottom: 20px;
+    padding: 20px;
+    margin-left: 20px;
 }
 .banner-text h1 {
     font-family: "Archivo Black", sans-serif;
@@ -70,18 +72,39 @@
 }
 
 
-
-
-@media (min-width: 641px) {
-    .banner-text {
-        margin-left: 160px; /* Adicione margem esquerda ao título */
-    }
-}
 @media (max-width: 641px) {
-    .banner-text  {
-        font-size: 50%;
+    .banner-text {
+        font-size: 16px; /* Define um tamanho de fonte menor */
+        line-height: 1.5; /* Define um espaçamento entre linhas maior */
     }
+    .banner-text h1.title {
+        font-size: 32px; /* Define um tamanho de fonte maior para o título */
+    }
+    
+    .banner-text h2.subtitle {
+        font-size: 20px; /* Define um tamanho de fonte menor para o subtítulo */
+    }
+    
 }
+
+ /* Estilos para telas médias */
+ @media (min-width: 576px) and (max-width: 992px) {    
+  
+    .banner-text {
+        font-size: 16px; /* Define um tamanho de fonte menor */
+        line-height: 1.5; /* Define um espaçamento entre linhas maior */
+        
+    }
+    .banner-text h1.title {
+        font-size: 42px; /* Define um tamanho de fonte maior para o título */
+    }
+    
+    .banner-text h2.subtitle {
+        font-size: 28px; /* Define um tamanho de fonte menor para o subtítulo */
+    }
+    
+}
+
 
 /* Animação para os títulos dos produtos */
 @keyframes fadeInUp {

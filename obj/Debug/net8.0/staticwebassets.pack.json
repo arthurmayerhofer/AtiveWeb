@@ -13,20 +13,16 @@
       "PackagePath": "staticwebassets\\AtiveWeb.styles.css"
     },
     {
-      "Id": "C:\\src\\AtiveWeb\\wwwroot\\.nojekyll",
-      "PackagePath": "staticwebassets\\.nojekyll"
-    },
-    {
-      "Id": "C:\\src\\AtiveWeb\\wwwroot\\404.html",
-      "PackagePath": "staticwebassets\\404.html"
-    },
-    {
       "Id": "C:\\src\\AtiveWeb\\wwwroot\\awlogo.png",
       "PackagePath": "staticwebassets\\awlogo.png"
     },
     {
       "Id": "C:\\src\\AtiveWeb\\wwwroot\\background-aurora.jpeg",
       "PackagePath": "staticwebassets\\background-aurora.jpeg"
+    },
+    {
+      "Id": "C:\\src\\AtiveWeb\\wwwroot\\background-aurora.png",
+      "PackagePath": "staticwebassets\\background-aurora.png"
     },
     {
       "Id": "C:\\src\\AtiveWeb\\wwwroot\\css\\app.css",

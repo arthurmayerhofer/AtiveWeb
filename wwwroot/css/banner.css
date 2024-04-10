@@ -1,0 +1,35 @@
+
+.banner {
+    margin-left: 20px; /* Reduz a margem esquerda do container */
+    margin-right: 10px; /* Reduz a margem direita do container */
+    margin-bottom: 50px;
+  }
+
+/* Estilos para telas pequenas */
+@media (max-width: 576px) {
+    .banner {
+      flex-direction: column;
+      margin-left: -12px; /* Reduz a margem esquerda do container */
+      margin-right: -12px; /* Reduz a margem direita do container */
+    }    
+  }
+  
+  /* Estilos para telas médias */
+  @media (min-width: 576px) and (max-width: 992px) {
+    .banner {
+      flex-wrap: wrap;
+      margin-left: -12px; /* Reduz a margem esquerda do container */
+      margin-right: -12px; /* Reduz a margem direita do container */
+
+    }
+ 
+ 
+  }
+  
+  /* Estilos para telas maiores */
+  @media (min-width: 992px) {
+    .banner {
+      flex-direction: row;
+    }
+  }
+  
