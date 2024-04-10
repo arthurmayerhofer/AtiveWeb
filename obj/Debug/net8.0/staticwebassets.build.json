@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1bt8pgvrxlx63w1C2VqudtgCErmH/5ZxF9/DlptA3f8=",
+  "Hash": "GCYrdsUouakKTyOC6pHbVlL6u3oNFNeX8tWF42buQ0M=",
   "Source": "AtiveWeb",
   "BasePath": "/",
   "Mode": "Root",
@@ -7864,6 +7864,25 @@
       "OriginalItemSpec": "wwwroot\\background-aurora.png"
     },
     {
+      "Identity": "C:\\src\\AtiveWeb\\wwwroot\\banner-img.png",
+      "SourceId": "AtiveWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\src\\AtiveWeb\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "banner-img.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\banner-img.png"
+    },
+    {
       "Identity": "C:\\src\\AtiveWeb\\wwwroot\\css\\app.css",
       "SourceId": "AtiveWeb",
       "SourceType": "Discovered",
@@ -7881,6 +7900,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\app.css"
+    },
+    {
+      "Identity": "C:\\src\\AtiveWeb\\wwwroot\\css\\banner.css",
+      "SourceId": "AtiveWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\src\\AtiveWeb\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/banner.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\banner.css"
     },
     {
       "Identity": "C:\\src\\AtiveWeb\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
@@ -8111,6 +8149,25 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
+      "Identity": "C:\\src\\AtiveWeb\\wwwroot\\foguete.png",
+      "SourceId": "AtiveWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\src\\AtiveWeb\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "foguete.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\foguete.png"
+    },
+    {
       "Identity": "C:\\src\\AtiveWeb\\wwwroot\\homem-celebra.png",
       "SourceId": "AtiveWeb",
       "SourceType": "Discovered",
@@ -8187,6 +8244,25 @@
       "OriginalItemSpec": "wwwroot\\mulher-celebra.png"
     },
     {
+      "Identity": "C:\\src\\AtiveWeb\\wwwroot\\publicidade.png",
+      "SourceId": "AtiveWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\src\\AtiveWeb\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "publicidade.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\publicidade.png"
+    },
+    {
       "Identity": "C:\\src\\AtiveWeb\\wwwroot\\sample-data\\weather.json",
       "SourceId": "AtiveWeb",
       "SourceType": "Discovered",
@@ -8261,6 +8337,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\site.png"
+    },
+    {
+      "Identity": "C:\\src\\AtiveWeb\\wwwroot\\website.png",
+      "SourceId": "AtiveWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\src\\AtiveWeb\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "website.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\website.png"
     }
   ]
 }

@@ -25,8 +25,16 @@
       "PackagePath": "staticwebassets\\background-aurora.png"
     },
     {
+      "Id": "C:\\src\\AtiveWeb\\wwwroot\\banner-img.png",
+      "PackagePath": "staticwebassets\\banner-img.png"
+    },
+    {
       "Id": "C:\\src\\AtiveWeb\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\src\\AtiveWeb\\wwwroot\\css\\banner.css",
+      "PackagePath": "staticwebassets\\css\\banner.css"
     },
     {
       "Id": "C:\\src\\AtiveWeb\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
@@ -77,6 +85,10 @@
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
+      "Id": "C:\\src\\AtiveWeb\\wwwroot\\foguete.png",
+      "PackagePath": "staticwebassets\\foguete.png"
+    },
+    {
       "Id": "C:\\src\\AtiveWeb\\wwwroot\\homem-celebra.png",
       "PackagePath": "staticwebassets\\homem-celebra.png"
     },
@@ -93,6 +105,10 @@
       "PackagePath": "staticwebassets\\mulher-celebra.png"
     },
     {
+      "Id": "C:\\src\\AtiveWeb\\wwwroot\\publicidade.png",
+      "PackagePath": "staticwebassets\\publicidade.png"
+    },
+    {
       "Id": "C:\\src\\AtiveWeb\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
@@ -107,6 +123,10 @@
     {
       "Id": "C:\\src\\AtiveWeb\\wwwroot\\site.png",
       "PackagePath": "staticwebassets\\site.png"
+    },
+    {
+      "Id": "C:\\src\\AtiveWeb\\wwwroot\\website.png",
+      "PackagePath": "staticwebassets\\website.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AtiveWeb.Microsoft.AspNetCore.StaticWebAssets.props",

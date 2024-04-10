@@ -12,6 +12,7 @@
     cursor: pointer;
     transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
     margin-top: 30px;
+    max-width: 180px;
 }
 
 /* Efeito de hover do botão */
