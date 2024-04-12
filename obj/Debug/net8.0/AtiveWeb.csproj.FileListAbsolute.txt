@@ -1033,5 +1033,3 @@ C:\src\AtiveWeb\obj\Debug\net8.0\AtiveWeb.sourcelink.json
 C:\src\AtiveWeb\bin\Debug\net8.0\docs\web.config
 C:\src\AtiveWeb\bin\Debug\net8.0\docs\wwwroot\sample-data\weather.json
 C:\src\AtiveWeb\bin\Debug\net8.0\docs\wwwroot\_framework\blazor.boot.json
-C:\src\AtiveWeb\bin\Debug\net8.0\sample-data\weather.json
-C:\src\AtiveWeb\bin\Debug\net8.0\_framework\blazor.boot.json
