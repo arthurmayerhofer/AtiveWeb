@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "AtiveWeb",
   "resources": {
-    "hash": "sha256-C1rHAUX4x6Qs9rJObSink6SoS5QAnA4A6wSIzwgjCUc=",
+    "hash": "sha256-QsOBL8LQT+zHTSparQkWoM4OLy5PIQ9jlTiBlnLR/Z8=",
     "jsModuleNative": {
       "dotnet.native.8.0.2.jgt5nhn140.js": "sha256-gPMK16QWoJSTxorlZJqcVtbBRTniIQWlLsJN2O4cJHg="
     },
@@ -17,7 +17,7 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "AtiveWeb.wasm": "sha256-EXcjz4t10iTyGoq5S05RUbsRCG7vyaJ+4Jyq/LxkWGw=",
+      "AtiveWeb.wasm": "sha256-xy5FQghxsoal/8nvuTJ/yGACBIHFTL5Lc1A5P3kXNzs=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-pisTzSE1MHKvoWenBOqEd1Fi6tAug4HSS1LuLLKh7Ls=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-7KkqwwQtcN+NHevIKYhJ2gLZJa3f0aShCl2ldtegyXw=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-jrdFRjrF1131MZ3HGQVsI3dX8cLdZvPz85lsBltxjSM=",
