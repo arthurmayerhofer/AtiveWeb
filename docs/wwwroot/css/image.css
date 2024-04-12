@@ -1,0 +1,63 @@
+
+/* Estilo da logo */
+.logo img{
+  max-height: 170px; /* Altura máxima da logo */
+  margin-left: 50px;
+}
+
+.logo-form img{
+  max-height: 140px; /* Altura máxima da logo */
+  margin-bottom: -30px;
+
+}
+
+.banner-image img {
+  max-width: 100%;
+  height: auto;
+  -webkit-mask-image: linear-gradient(to top, transparent 0%, black 50%);
+  mask-image: linear-gradient(to top, transparent 0%, black 50%);
+  animation: celebrate 8s infinite alternate ease-in-out;
+  /* Animação */
+  transition: transform 0.5s ease-in-out;
+  /* Transição para suavizar a animação */
+  position: relative;
+  z-index: 1;
+  /* Define a ordem de empilhamento */
+}
+.section-image img{
+  max-width: 50%;
+  height: auto;
+}
+
+@keyframes celebrate {
+  0% {
+      transform: scale(1) rotate(0deg);
+      /* Estado inicial */
+  }
+
+  50% {
+      transform: scale(1.1) rotate(5deg);
+      /* Meio da animação */
+  }
+
+  100% {
+      transform: scale(1) rotate(0deg);
+      /* Estado final */
+  }
+
+}
+@media (max-width: 641px) {
+  .logo img{
+      max-height: 150px; /* Altura máxima da logo */
+      padding-bottom: 0px;
+  }
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
