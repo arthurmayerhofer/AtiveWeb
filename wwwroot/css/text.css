@@ -1,0 +1,172 @@
+
+
+
+
+/* Banner Text*/
+
+.banner-text{
+    color: #f4f4f4;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-left: 20px;
+}
+.banner-text h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 56px;
+    font-weight: bold;
+    animation: slideInLeft 1s ease forwards; /* Aplica a animação slideInLeft */
+
+}
+.banner-text h2{
+    font-family: "Cuprum", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    animation: fadeInUp 1s ease forwards; /* Aplica a animação fadeInUp */
+
+}
+.banner-text h3 {
+    font-family: "Cuprum", sans-serif;
+    font-size: 26px;
+    animation: fadeInUp 0.5s ease forwards; /* Aplica a animação fadeInUp */
+
+}
+
+
+
+
+/* Product Text*/
+
+.product:hover .product-title,
+.product:hover .product-description {
+    color: #ffffff;
+}
+.product-title {
+    font-family: "Cuprum", sans-serif;
+    font-size: 28px; /* Tamanho da fonte do título */
+    color: #188736; /* Cor do texto do título */
+    margin-bottom: 10px; /* Espaçamento inferior entre o título e o parágrafo */
+    animation: fadeInUp 0.5s ease forwards; /* Aplica a animação fadeInUp */
+
+}
+
+.product-description {
+    font-size: 16px; /* Tamanho da fonte do parágrafo */
+    color: #666; /* Cor do texto do parágrafo */
+    animation: fadeInUp 0.5s ease forwards; /* Aplica a animação fadeInUp */
+
+}
+
+
+/* Service Text*/
+
+.service-title {
+    font-family: "Cuprum", sans-serif;
+    font-size: 46px; /* Tamanho da fonte do título */
+    color: #188736; /* Cor do texto do título */
+    margin-bottom: 10px; /* Espaçamento inferior entre o título e o parágrafo */
+    animation: fadeInUp 0.5s ease forwards; /* Aplica a animação fadeInUp */
+}
+.service-description {
+    font-size: 28px; /* Tamanho da fonte do parágrafo */
+    color: #666; /* Cor do texto do parágrafo */
+    animation: fadeInUp 0.5s ease forwards; /* Aplica a animação fadeInUp */
+
+}
+
+/* Animação para os títulos dos produtos */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes slideInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+
+.custom-center {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    height: 100%; /* Garante que a div ocupe toda a altura da coluna */
+}
+
+/* Estilos personalizados para os links do menu */
+.nav-item nav-link {
+    font-family: Arial, sans-serif; /* Escolha a fonte desejada */
+    font-size: 16px; /* Tamanho da fonte */
+    padding: 10px; /* Espaçamento interno */
+    color: #fff; /* Cor do texto */
+    text-decoration: none; /* Remover sublinhado */
+    transition: all 0.3s ease; /* Adicionar transição suave */
+}
+
+.custom-link:hover {
+    color: #ffc107; /* Mudar a cor do texto ao passar o mouse */
+}
+
+
+@media (max-width: 641px) {
+    .banner-text {
+        margin-bottom: -30px;
+        line-height: 1.5; /* Define um espaçamento entre linhas maior */
+    }
+    .banner-text h1.title {
+        font-size: 36px; /* Define um tamanho de fonte maior para o título */
+    }
+    
+    .banner-text h2.subtitle {
+        font-size: 24px; /* Define um tamanho de fonte menor para o subtítulo */
+    }
+
+    .product-title {
+        font-size: 42px; /* Tamanho da fonte do título */
+    }
+    
+    .product-description,
+    .service-description {
+        font-size: 26px; /* Tamanho da fonte do parágrafo */
+    }
+
+    
+    
+}
+ /* Estilos para telas médias */
+ @media (min-width: 576px) and (max-width: 992px) {    
+  
+    .banner-text {
+        margin-bottom: -30px;
+
+        line-height: 1.8; /* Define um espaçamento entre linhas maior */
+        
+    }
+    .banner-text h1.title {
+        font-size: 42px; /* Define um tamanho de fonte maior para o título */
+    }
+    
+    .banner-text h2.subtitle {
+        font-size: 28px; /* Define um tamanho de fonte menor para o subtítulo */
+    }
+    
+}
+
+@media (min-width: 991px) {
+    .banner-text {
+        font-size: 16px; /* Define um tamanho de fonte menor */
+        line-height: 1.8; /* Define um espaçamento entre linhas maior */
+    }
+}

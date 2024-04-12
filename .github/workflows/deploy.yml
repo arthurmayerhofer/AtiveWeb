@@ -3,11 +3,7 @@ name: cards
 on:
   push:
     branches:
-<<<<<<< HEAD
       - cards
-=======
-      - main
->>>>>>> 89bc3c411f21f630a67369d9d7a7598bf8a00e4a
 
 permissions: 
   contents: write
@@ -39,10 +35,6 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
         GITHUB_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
-<<<<<<< HEAD
         BRANCH: cards
-=======
-        BRANCH: main
->>>>>>> 89bc3c411f21f630a67369d9d7a7598bf8a00e4a
         FOLDER: build/wwwroot
       
